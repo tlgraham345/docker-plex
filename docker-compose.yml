@@ -8,7 +8,7 @@ services:
       - PGID=1000
       - TZ=America/Chicago
       - VERSION=docker
-      - PLEX_CLAIM= #optional
+      - PLEX_CLAIM=claim-p2ZALNudyrheXaLmxFiD
     volumes:
       - /path/to/plex/library:/config
       - /path/to/tvseries:/tv
